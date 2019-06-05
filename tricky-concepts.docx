@@ -1,0 +1,16 @@
+This file will contain all the tricky concepts that i will encounter during this project.
+
+1. Globbing(git):Special characters to match patterns(To read more on this concept)
+a) Blank lines for spacing
+b)* : matches zero or more characters
+c)# : makes line as comment
+d)? : matches one character
+
+
+2.Git revert/reset
+a)reverts the changes made by a commit referenced by its SHA
+b)Refrencing commits:
+HEAD^ HEAD~1 reference to the parent commit
+HEAD^^ HEAD~2 reference to the grandparent commit
+HEAD^^^2 : reference to the second great grand parent commit
+c)git reset
